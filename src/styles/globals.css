@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ============================================
+   PREMIUM LUXURY DESIGN SYSTEM
+   ============================================ */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,68 +17,157 @@ html {
 }
 
 body {
-  @apply bg-white text-dark font-sans;
+  @apply bg-luxury-white text-luxury-black font-body;
   overflow-x: hidden;
+  letter-spacing: 0.3px;
 }
 
-/* Custom scrollbar */
+/* ============================================
+   TYPOGRAPHY - Premium Fonts
+   ============================================ */
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.02em;
+}
+
+h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+  line-height: 1.8;
+}
+
+/* ============================================
+   SCROLLBAR - Luxury Styling
+   ============================================ */
+
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-gray-100;
+  background: #F5F5F5;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-primary rounded-full;
+  background: linear-gradient(180deg, #D4AF37, #F7E27D);
+  border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-opacity-80;
+  background: linear-gradient(180deg, #F7E27D, #D4AF37);
 }
 
-/* Selection color */
+/* ============================================
+   SELECTION - Premium Gold
+   ============================================ */
+
 ::selection {
-  @apply bg-primary text-white;
+  background: linear-gradient(135deg, #D4AF37, #F7E27D);
+  color: #FFFFFF;
 }
 
-/* Utility classes */
+/* ============================================
+   UTILITY CLASSES - Premium Components
+   ============================================ */
+
 .container-custom {
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
 
+/* Gradient Text - Premium Gold */
 .gradient-text {
-  @apply bg-gradient-to-r from-primary via-amber-700 to-yellow-600 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-luxury-gold via-yellow-500 to-luxury-gold-light bg-clip-text text-transparent;
+  font-weight: 700;
 }
 
+/* Gold Gradient Background */
+.gradient-gold {
+  background: linear-gradient(135deg, #D4AF37, #F7E27D);
+}
+
+/* Primary Button - Gold Gradient */
 .button-primary {
-  @apply px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-300 hover:shadow-lg;
+  @apply px-8 py-4 rounded-xl font-semibold text-luxury-white transition-all duration-300;
+  background: linear-gradient(135deg, #D4AF37, #F7E27D);
+  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
+  letter-spacing: 0.5px;
 }
 
+.button-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.35);
+}
+
+.button-primary:active {
+  transform: translateY(0);
+}
+
+/* Secondary Button - Gold Border */
 .button-secondary {
-  @apply px-6 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-all duration-300;
+  @apply px-8 py-4 border-2 border-luxury-gold rounded-xl font-semibold text-luxury-gold transition-all duration-300;
 }
 
+.button-secondary:hover {
+  background: linear-gradient(135deg, #D4AF37, #F7E27D);
+  @apply text-luxury-white border-transparent;
+  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
+}
+
+/* Card Shadow - Premium */
 .card-shadow {
-  @apply shadow-lg hover:shadow-2xl transition-shadow duration-300;
+  @apply shadow-luxury hover:shadow-2xl transition-shadow duration-300;
 }
 
-/* Animation utilities */
+/* Glassmorphism Effect */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glassmorphism-dark {
+  background: rgba(13, 13, 13, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(13, 13, 13, 0.1);
+}
+
+/* ============================================
+   ANIMATION UTILITIES - Premium Transitions
+   ============================================ */
+
 .fade-in {
-  animation: fadeIn 0.6s ease-in-out;
+  animation: fadeInPremium 0.8s ease-in-out;
 }
 
 .slide-up {
-  animation: slideUp 0.6s ease-out;
+  animation: slideUpPremium 0.8s ease-out;
+}
+
+.slide-down {
+  animation: slideDownPremium 0.8s ease-out;
+}
+
+.slide-left {
+  animation: slideLeftPremium 0.8s ease-out;
+}
+
+.slide-right {
+  animation: slideRightPremium 0.8s ease-out;
 }
 
 .scale-in {
-  animation: scaleIn 0.5s ease-out;
+  animation: scaleInPremium 0.6s ease-out;
 }
 
-@keyframes fadeIn {
+.float {
+  animation: floatPremium 6s ease-in-out infinite;
+}
+
+@keyframes fadeInPremium {
   from {
     opacity: 0;
   }
@@ -83,10 +176,10 @@ body {
   }
 }
 
-@keyframes slideUp {
+@keyframes slideUpPremium {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
@@ -94,7 +187,40 @@ body {
   }
 }
 
-@keyframes scaleIn {
+@keyframes slideDownPremium {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideLeftPremium {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRightPremium {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleInPremium {
   from {
     opacity: 0;
     transform: scale(0.95);
@@ -103,4 +229,69 @@ body {
     opacity: 1;
     transform: scale(1);
   }
+}
+
+@keyframes floatPremium {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* ============================================
+   PREMIUM SPACING & SIZING
+   ============================================ */
+
+.spacing-luxury {
+  @apply py-20 md:py-32;
+}
+
+.spacing-section {
+  @apply py-16 md:py-28;
+}
+
+/* ============================================
+   PREMIUM TEXT STYLING
+   ============================================ */
+
+.text-luxury-lg {
+  @apply text-3xl md:text-5xl lg:text-6xl font-heading;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.text-luxury-md {
+  @apply text-xl md:text-2xl lg:text-3xl font-subheading;
+  letter-spacing: 0.05em;
+}
+
+.text-luxury-sm {
+  @apply text-sm md:text-base font-display;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* ============================================
+   RESPONSIVE UTILITIES
+   ============================================ */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container-custom {
+    @apply px-4;
+  }
+}
+
+/* ============================================
+   FOCUS & ACCESSIBILITY
+   ============================================ */
+
+:focus-visible {
+  outline: 2px solid #D4AF37;
+  outline-offset: 2px;
 }
