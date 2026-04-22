@@ -89,7 +89,7 @@ export const Instagram = () => {
           {posts.map((post) => (
             <motion.a
               key={post.id}
-              href="https://instagram.com/rahavimakeoverartistry"
+              href="https://instagram.com/glowmakeover_byjyo"
               target="_blank"
               rel="noopener noreferrer"
               variants={itemVariants}
@@ -130,7 +130,7 @@ export const Instagram = () => {
           transition={{ delay: 0.3 }}
         >
           <motion.a
-            href="https://instagram.com/rahavimakeoverartistry"
+            href="https://instagram.com/glowmakeover_byjyo"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 button-primary px-8 py-4 text-lg"
@@ -138,7 +138,7 @@ export const Instagram = () => {
             whileTap={{ scale: 0.95 }}
           >
             <FaInstagram />
-            Follow @rahavimakeoverartistry
+            Follow @glowmakeover_byjyo
           </motion.a>
         </motion.div>
       </div>

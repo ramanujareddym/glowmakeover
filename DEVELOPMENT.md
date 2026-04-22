@@ -1,6 +1,6 @@
 # Development Guide
 
-This document provides detailed guidelines for developing and maintaining the Rahavi Makeover Artistry website.
+This document provides detailed guidelines for developing and maintaining the Glow Makeover by Jyo website.
 
 ## Setup
 

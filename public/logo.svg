@@ -1,0 +1,65 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#FFF8E7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE8C4;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F7E27D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle background -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGrad)"/>
+  
+  <!-- Gold border -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  
+  <!-- Lotus Flower - Large and Clear -->
+  <g transform="translate(100, 100)">
+    <!-- Outer petals (8 petals) -->
+    <g opacity="0.9">
+      <!-- Top petal -->
+      <ellipse cx="0" cy="-35" rx="12" ry="20" fill="#D4AF37"/>
+      <!-- Top-right petal -->
+      <ellipse cx="25" cy="-25" rx="12" ry="20" fill="#D4AF37" transform="rotate(45 25 -25)"/>
+      <!-- Right petal -->
+      <ellipse cx="35" cy="0" rx="12" ry="20" fill="#D4AF37" transform="rotate(90 35 0)"/>
+      <!-- Bottom-right petal -->
+      <ellipse cx="25" cy="25" rx="12" ry="20" fill="#D4AF37" transform="rotate(135 25 25)"/>
+      <!-- Bottom petal -->
+      <ellipse cx="0" cy="35" rx="12" ry="20" fill="#D4AF37"/>
+      <!-- Bottom-left petal -->
+      <ellipse cx="-25" cy="25" rx="12" ry="20" fill="#D4AF37" transform="rotate(225 -25 25)"/>
+      <!-- Left petal -->
+      <ellipse cx="-35" cy="0" rx="12" ry="20" fill="#D4AF37" transform="rotate(270 -35 0)"/>
+      <!-- Top-left petal -->
+      <ellipse cx="-25" cy="-25" rx="12" ry="20" fill="#D4AF37" transform="rotate(315 -25 -25)"/>
+    </g>
+    
+    <!-- Inner petals (lighter shade) -->
+    <g opacity="0.7">
+      <ellipse cx="0" cy="-22" rx="8" ry="14" fill="#F7E27D"/>
+      <ellipse cx="16" cy="-16" rx="8" ry="14" fill="#F7E27D" transform="rotate(45 16 -16)"/>
+      <ellipse cx="22" cy="0" rx="8" ry="14" fill="#F7E27D" transform="rotate(90 22 0)"/>
+      <ellipse cx="16" cy="16" rx="8" ry="14" fill="#F7E27D" transform="rotate(135 16 16)"/>
+      <ellipse cx="0" cy="22" rx="8" ry="14" fill="#F7E27D"/>
+      <ellipse cx="-16" cy="16" rx="8" ry="14" fill="#F7E27D" transform="rotate(225 -16 16)"/>
+      <ellipse cx="-22" cy="0" rx="8" ry="14" fill="#F7E27D" transform="rotate(270 -22 0)"/>
+      <ellipse cx="-16" cy="-16" rx="8" ry="14" fill="#F7E27D" transform="rotate(315 -16 -16)"/>
+    </g>
+    
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="10" fill="#D4AF37"/>
+    <circle cx="0" cy="0" r="6" fill="#F7E27D"/>
+  </g>
+  
+  <!-- Decorative corner accents -->
+  <g opacity="0.5">
+    <circle cx="25" cy="25" r="1.5" fill="#D4AF37"/>
+    <circle cx="175" cy="25" r="1.5" fill="#D4AF37"/>
+    <circle cx="25" cy="175" r="1.5" fill="#D4AF37"/>
+    <circle cx="175" cy="175" r="1.5" fill="#D4AF37"/>
+  </g>
+</svg>

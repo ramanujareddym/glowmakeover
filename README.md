@@ -1,4 +1,4 @@
-# Rahavi Makeover Artistry - Professional Portfolio Website
+# Glow Makeover by Jyo - Professional Portfolio Website
 
 A modern, animated portfolio website built with **Next.js**, **React.js**, **TailwindCSS**, and **Framer Motion** for a professional makeup artist.
 
@@ -258,7 +258,7 @@ This project is open source and available under the MIT License.
 For questions or issues:
 - Email: support@example.com
 - WhatsApp: +91 XXXXX XXXXX
-- Instagram: @rahavimakeoverartistry
+- Instagram: @glowmakeover_byjyo
 
 ---
 

@@ -24,7 +24,7 @@ export async function POST(request: Request) {
     // TODO: Integrate with email service (e.g., SendGrid, Mailgun, Nodemailer)
     // Example:
     // await sendEmail({
-    //   to: 'rahavimakeover@gmail.com',
+    //   to: 'jyothi.kothakapu1@gmail.com',
     //   subject: `New booking inquiry from ${body.name}`,
     //   html: `<p>Name: ${body.name}</p><p>Email: ${body.email}</p>...`
     // })

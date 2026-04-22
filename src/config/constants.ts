@@ -3,18 +3,18 @@
  */
 
 export const SITE_CONFIG = {
-  name: 'Rahavi Makeover Artistry',
+  name: 'Glow Makeover by Jyo',
   description: 'Professional makeup artist portfolio. Bridal, party, and editorial makeup services.',
-  author: 'Harshitha',
-  siteUrl: 'https://rahavimakeoverartistry.com',
+  author: 'Jyothi',
+  siteUrl: 'https://glowmakeover-byjyo.com',
   socialLinks: {
-    instagram: 'https://instagram.com/rahavimakeoverartistry',
-    whatsapp: 'https://wa.me/919949588782',
-    email: 'rahavimakeover@gmail.com',
+    instagram: 'https://instagram.com/glowmakeover_byjyo',
+    whatsapp: 'https://wa.me/918555809594',
+    email: 'jyothi.kothakapu1@gmail.com',
   },
   contact: {
-    phone: '+91 99495 88782',
-    email: 'rahavimakeover@gmail.com',
+    phone: '+91 85558 09594',
+    email: 'jyothi.kothakapu1@gmail.com',
     location: 'Hyderabad, India',
     hours: 'Mon-Sat: 9am - 7pm',
   },

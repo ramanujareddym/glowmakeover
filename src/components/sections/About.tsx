@@ -104,7 +104,7 @@ export const About = () => {
                 The Artist Behind The Brush
               </motion.p>
               <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-bold text-dark mb-4">
-                Hello, I'm Harshitha
+                Hello, I'm Jyothi
               </motion.h2>
               <motion.p variants={itemVariants} className="text-gray-600 text-lg leading-relaxed">
                 With 5+ years of experience in the beauty industry, I specialize in creating

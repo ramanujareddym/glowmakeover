@@ -1,6 +1,6 @@
 # 📂 Complete File Structure & Reference
 
-This document lists all files created for the Rahavi Makeover Artistry website and explains their purpose.
+This document lists all files created for the Glow Makeover by Jyo website and explains their purpose.
 
 ## 📦 Project Root Files
 

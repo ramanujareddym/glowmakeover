@@ -18,7 +18,7 @@ Update the SITE_CONFIG object:
 
 ```typescript
 export const SITE_CONFIG = {
-  name: 'Rahavi Makeover Artistry',  // Your business name
+  name: 'Glow Makeover by Jyo',  // Your business name
   description: 'Professional makeup artist...',  // Meta description
   author: 'Harshitha',  // Your name
   siteUrl: 'https://yourdomain.com',  // Your domain
@@ -195,10 +195,10 @@ And update the Instagram handle:
 
 ```typescript
 <motion.a
-  href="https://instagram.com/rahavimakeoverartistry"  // Change to your handle
+  href="https://instagram.com/glowmakeover_byjyo"  // Change to your handle
   target="_blank"
 >
-  Follow @rahavimakeoverartistry  {/* Update handle */}
+  Follow @glowmakeover_byjyo  {/* Update handle */}
 </motion.a>
 ```
 

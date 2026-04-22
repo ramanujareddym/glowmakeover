@@ -7,9 +7,9 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { icon: FaInstagram, label: 'Instagram', href: 'https://instagram.com/rahavimakeoverartistry', color: '#E1306C' },
-    { icon: FaWhatsapp, label: 'WhatsApp', href: 'https://wa.me/919949588782', color: '#25D366' },
-    { icon: FaEnvelope, label: 'Email', href: 'mailto:rahavimakeover@gmail.com', color: '#D4A574' },
+    { icon: FaInstagram, label: 'Instagram', href: 'https://instagram.com/glowmakeover_byjyo', color: '#E1306C' },
+    { icon: FaWhatsapp, label: 'WhatsApp', href: 'https://wa.me/918555809594', color: '#25D366' },
+    { icon: FaEnvelope, label: 'Email', href: 'mailto:jyothi.kothakapu1@gmail.com', color: '#D4A574' },
   ]
 
   const footerLinks = [
@@ -48,7 +48,7 @@ export const Footer = () => {
         >
           {/* Brand */}
           <motion.div variants={itemVariants}>
-            <h3 className="text-2xl font-bold gradient-text mb-4">RAHAVI</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-4">Glow Makeover by Jyo</h3>
             <p className="text-gray-400">
               Enhancing your natural beauty with professional makeup artistry.
             </p>
@@ -78,14 +78,14 @@ export const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <FaPhone className="text-primary" />
-                <a href="tel:+919949588782" className="hover:text-primary transition-colors">
-                  +91 99495 88782
+                <a href="tel:+918555809594" className="hover:text-primary transition-colors">
+                  +91 85558 09594
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <FaEnvelope className="text-primary" />
-                <a href="mailto:rahavimakeover@gmail.com" className="hover:text-primary transition-colors">
-                  rahavimakeover@gmail.com
+                <a href="mailto:jyothi.kothakapu1@gmail.com" className="hover:text-primary transition-colors">
+                  jyothi.kothakapu1@gmail.com
                 </a>
               </div>
             </div>
@@ -124,7 +124,7 @@ export const Footer = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
         >
-          <p>&copy; {currentYear} RAHAVI MAKEOVER ARTISTRY. All rights reserved.</p>
+          <p>&copy; {currentYear} GLOW MAKEOVER BY JYO. All rights reserved.</p>
           <p className="mt-2">
             <a href="#" className="hover:text-primary transition-colors">
               Privacy Policy

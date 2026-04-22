@@ -1,6 +1,6 @@
 # 🎨 Features Overview - Visual Guide
 
-Complete visual guide to all sections and features implemented in the Rahavi Makeover Artistry website.
+Complete visual guide to all sections and features implemented in the Glow Makeover by Jyo website.
 
 ---
 
@@ -139,7 +139,7 @@ Complete visual guide to all sections and features implemented in the Rahavi Mak
 │ Caption  │ Caption  │ Caption  │
 │Hashtags  │Hashtags  │Hashtags  │
 └──────────┴──────────┴──────────┘
-     [Follow @rahavimakeoverartistry]
+     [Follow @glowmakeover_byjyo]
 ```
 
 ### Animations

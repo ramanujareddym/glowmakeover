@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { HiMenu, HiX } from 'react-icons/hi'
 
@@ -39,6 +40,8 @@ export const Navbar = () => {
     { label: 'About', href: '#about', id: 'about' },
     { label: 'Services', href: '#services', id: 'services' },
     { label: 'Gallery', href: '#gallery', id: 'gallery' },
+    { label: 'Instagram', href: '#instagram', id: 'instagram' },
+    { label: 'Testimonials', href: '#testimonials', id: 'testimonials' },
     { label: 'Contact', href: '#contact', id: 'contact' },
   ]
 
@@ -53,12 +56,29 @@ export const Navbar = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="container-custom py-4 flex items-center justify-between">
-        {/* Logo */}
-        <Link href="#hero" className={`text-3xl font-heading font-bold transition-colors duration-300 ${
-          isScrolled ? 'text-luxury-black' : 'text-luxury-gold'
-        }`}>
-          RAHAVI
+      <div className="container-custom py-3 flex items-center justify-between gap-8">
+        {/* Logo + Brand Name */}
+        <Link href="#hero" className="flex items-center gap-3 flex-shrink-0 min-w-fit">
+          <Image
+            src="/logo.svg"
+            alt="Glow Makeover by Jyo"
+            width={50}
+            height={50}
+            className="h-12 w-12"
+            priority
+          />
+          <div className="hidden sm:block">
+            <div className="font-heading font-bold text-lg leading-tight" style={{
+              color: isScrolled ? '#0D0D0D' : '#D4AF37'
+            }}>
+              Glow
+            </div>
+            <div className="font-heading font-semibold text-xs leading-tight" style={{
+              color: isScrolled ? '#0D0D0D' : '#D4AF37'
+            }}>
+              Makeover by Jyo
+            </div>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}

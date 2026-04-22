@@ -32,21 +32,21 @@ export const Contact = () => {
       icon: FaMapMarkerAlt,
       label: 'Location',
       value: 'Hyderabad, India',
-      href: 'https://maps.app.goo.gl/s58HBQSXPMDqEL3s5',
+      href: 'https://www.google.com/maps/place/Glow+makeover+and+saree+Pre+Plating+services/@17.5148255,78.3833471,721m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bcb8d5e933da413:0x316ac099477ecd73!8m2!3d17.5148255!4d78.385922!16s%2Fg%2F11yc945t8v?entry=ttu&g_ep=EgoyMDI2MDQxOS4wIKXMDSoASAFQAw%3D%3D',
       color: 'from-red-400 to-red-600',
     },
     {
       icon: FaPhone,
       label: 'Phone',
-      value: '+91 99495 88782',
-      href: 'tel:+919949588782',
+      value: '+91 85558 09594',
+      href: 'tel:+918555809594',
       color: 'from-blue-400 to-blue-600',
     },
     {
       icon: FaEnvelope,
       label: 'Email',
-      value: 'rahavimakeover@gmail.com',
-      href: 'mailto:rahavimakeover@gmail.com',
+      value: 'jyothi.kothakapu1@gmail.com',
+      href: 'mailto:jyothi.kothakapu1@gmail.com',
       color: 'from-green-400 to-green-600',
     },
     {
@@ -259,7 +259,7 @@ export const Contact = () => {
 
             {/* WhatsApp Button */}
             <motion.a
-              href="https://wa.me/919949588782?text=Hi!%20I%27m%20interested%20in%20booking%20a%20makeup%20session."
+              href="https://wa.me/918555809594?text=Hi!%20I%27m%20interested%20in%20booking%20a%20makeup%20session."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 w-full py-4 rounded-xl bg-green-600 hover:bg-green-700 transition-colors font-semibold text-lg"
@@ -274,7 +274,7 @@ export const Contact = () => {
             <div className="rounded-xl overflow-hidden h-64 bg-gray-800 flex items-center justify-center">
               <p className="text-gray-400">
                 <a
-                  href="https://maps.app.goo.gl/s58HBQSXPMDqEL3s5"
+                  href="https://www.google.com/maps/place/Glow+makeover+and+saree+Pre+Plating+services/@17.5148255,78.3833471,721m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bcb8d5e933da413:0x316ac099477ecd73!8m2!3d17.5148255!4d78.385922!16s%2Fg%2F11yc945t8v?entry=ttu&g_ep=EgoyMDI2MDQxOS4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline"
