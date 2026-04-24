@@ -226,7 +226,7 @@ export const Gallery = () => {
               className="relative w-full max-w-4xl flex items-center justify-center rounded-2xl overflow-hidden shadow-2xl bg-luxury-black"
             >
               <Image
-                src={`/images/gallery/look-${selectedItem.id}.jpeg`}
+                src={`/images/gallery/look-${selectedItem.id}.JPEG`}
                 alt={selectedItem.title}
                 width={1200}
                 height={1600}
