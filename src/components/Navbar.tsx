@@ -61,7 +61,7 @@ export const Navbar = () => {
         <Link href="#hero" className="flex items-center gap-3 flex-shrink-0 min-w-fit">
           <Image
             src="/logo.svg"
-            alt="Glow Makeover by Jyo"
+            alt="Glow Makeover"
             width={50}
             height={50}
             className="h-12 w-12"
@@ -71,12 +71,7 @@ export const Navbar = () => {
             <div className="font-heading font-bold text-lg leading-tight" style={{
               color: isScrolled ? '#0D0D0D' : '#D4AF37'
             }}>
-              Glow
-            </div>
-            <div className="font-heading font-semibold text-xs leading-tight" style={{
-              color: isScrolled ? '#0D0D0D' : '#D4AF37'
-            }}>
-              Makeover by Jyo
+              Glow Makeover
             </div>
           </div>
         </Link>

@@ -48,7 +48,7 @@ export const Footer = () => {
         >
           {/* Brand */}
           <motion.div variants={itemVariants}>
-            <h3 className="text-2xl font-bold gradient-text mb-4">Glow Makeover by Jyo</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-4">Glow Makeover</h3>
             <p className="text-gray-400">
               Enhancing your natural beauty with professional makeup artistry.
             </p>

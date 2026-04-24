@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           name="description"
           content="Professional makeup artist portfolio. Bridal, party, and editorial makeup services."
         />
-        <title>Glow Makeover by Jyo - Professional Makeup Artist</title>
+        <title>Glow Makeover - Professional Makeup Artist</title>
         {/* Google Fonts - Premium Typography */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

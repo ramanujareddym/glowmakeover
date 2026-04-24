@@ -3,7 +3,7 @@
  */
 
 export const SITE_CONFIG = {
-  name: 'Glow Makeover by Jyo',
+  name: 'Glow Makeover',
   description: 'Professional makeup artist portfolio. Bridal, party, and editorial makeup services.',
   author: 'Jyothi',
   siteUrl: 'https://glowmakeover-byjyo.com',

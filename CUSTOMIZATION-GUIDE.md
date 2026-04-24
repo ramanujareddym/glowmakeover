@@ -325,7 +325,7 @@ Update logo text:
 
 ```typescript
 <Link href="#hero" className="text-2xl font-bold gradient-text">
-  RAHAVI  {/* Change to your business name */}
+  Glow Makeover by Jyo  {/* Change to your business name */}
 </Link>
 ```
 
