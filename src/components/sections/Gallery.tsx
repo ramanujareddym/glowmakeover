@@ -138,7 +138,7 @@ export const Gallery = () => {
               >
                 {/* Optimized Gallery Image */}
                 <Image
-                  src={`/images/gallery/look-${item.id}.jpeg`}
+                  src={`/images/gallery/look-${item.id}.JPEG`}
                   alt={item.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
