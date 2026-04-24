@@ -49,31 +49,27 @@ export const Navbar = () => {
     <motion.nav
       className={`fixed w-full z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'bg-luxury-white shadow-luxury' 
+          ? 'bg-luxury-white shadow-luxury py-2' 
           : 'bg-luxury-black/30 glassmorphism-dark'
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="container-custom py-3 flex items-center justify-between gap-8">
+      <div className="container-custom py-2 flex items-center justify-between gap-4 md:gap-8">
         {/* Logo + Brand Name */}
-        <Link href="#hero" className="flex items-center gap-3 flex-shrink-0 min-w-fit">
+        <Link href="#hero" className="flex items-center gap-2 md:gap-3 flex-shrink-0 min-w-fit group outline-none">
           <Image
-            src="/logo.svg"
+            src="/images/logo.png"
             alt="Glow Makeover"
-            width={50}
-            height={50}
-            className="h-12 w-12"
+            width={48}
+            height={48}
+            className="h-10 w-10 md:h-12 md:w-12 object-contain transition-transform duration-300 group-hover:scale-105"
             priority
           />
-          <div className="hidden sm:block">
-            <div className="font-heading font-bold text-lg leading-tight" style={{
-              color: isScrolled ? '#0D0D0D' : '#D4AF37'
-            }}>
-              Glow Makeover
-            </div>
-          </div>
+          <span className="font-heading font-bold text-base md:text-xl leading-tight whitespace-nowrap text-luxury-gold pt-0.5">
+            Glow Makeover
+          </span>
         </Link>
 
         {/* Desktop Navigation */}

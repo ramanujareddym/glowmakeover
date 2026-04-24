@@ -27,7 +27,7 @@ export const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative w-full h-screen bg-luxury-black overflow-hidden flex items-center justify-center pt-20"
+      className="relative w-full min-h-screen bg-luxury-black overflow-hidden flex items-center justify-center pt-32 md:pt-40 pb-20"
     >
       {/* Premium background elements with glassmorphism */}
       <div className="absolute inset-0 overflow-hidden">
@@ -64,7 +64,7 @@ export const Hero = () => {
           {/* Premium subtitle with luxury styling */}
           <motion.div variants={itemVariants} className="inline-block mx-auto">
             <span className="text-luxury-gold font-display font-semibold text-sm md:text-base uppercase tracking-luxury">
-              ✨ Professional Makeup Artist
+              ★ PROFESSIONAL MAKEUP ARTIST
             </span>
           </motion.div>
 
@@ -107,7 +107,7 @@ export const Hero = () => {
           {/* CTA Buttons - Premium styling */}
           <motion.div
             variants={itemVariants}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6 md:pt-10"
+            className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-8 md:pt-12"
           >
             <motion.a
               href="#contact"
