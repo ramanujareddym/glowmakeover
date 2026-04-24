@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { HiChevronLeft, HiChevronRight } from 'react-icons/hi'
+import { HiChevronLeft, HiChevronRight, HiChevronDown, HiChevronUp } from 'react-icons/hi'
 
 export const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState<string>('all')
@@ -192,7 +192,3 @@ export const Gallery = () => {
     </section>
   )
 }
-
-// Icon fallback since HiChevronDown and HiChevronUp might not be available
-const HiChevronDown = () => <span>↓</span>
-const HiChevronUp = () => <span>↑</span>
