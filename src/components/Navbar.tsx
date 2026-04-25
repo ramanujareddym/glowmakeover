@@ -39,8 +39,8 @@ export const Navbar = () => {
     { label: 'Home', href: '#hero', id: 'hero' },
     { label: 'About', href: '#about', id: 'about' },
     { label: 'Services', href: '#services', id: 'services' },
-    { label: 'Gallery', href: '#gallery', id: 'gallery' },
     { label: 'Instagram', href: '#instagram', id: 'instagram' },
+    { label: 'Gallery', href: '#gallery', id: 'gallery' },
     { label: 'Testimonials', href: '#testimonials', id: 'testimonials' },
     { label: 'Contact', href: '#contact', id: 'contact' },
   ]
@@ -64,10 +64,10 @@ export const Navbar = () => {
             alt="Glow Makeover"
             width={48}
             height={48}
-            className="h-10 w-10 md:h-12 md:w-12 object-contain transition-transform duration-300 group-hover:scale-105"
+            className="h-10 w-10 md:h-12 md:w-12 object-contain transition-transform duration-300 group-hover:scale-105 rounded-full"
             priority
           />
-          <span className="font-heading font-bold text-base md:text-xl leading-tight whitespace-nowrap text-luxury-gold pt-0.5">
+          <span className="font-heading font-bold text-base md:text-xl leading-tight whitespace-nowrap text-luxury-gold">
             Glow Makeover
           </span>
         </Link>
