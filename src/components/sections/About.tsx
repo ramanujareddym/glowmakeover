@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { FaAward, FaHeart, FaStar } from 'react-icons/fa'
 
@@ -56,7 +57,7 @@ export const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-primary/5">
+            <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-primary/5">
               {/* Decorative background */}
               <motion.div
                 className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent"
@@ -64,13 +65,14 @@ export const About = () => {
                 transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
               />
               
-              {/* Placeholder for image */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <p className="text-gray-400 text-lg">Professional Headshot</p>
-                  <p className="text-gray-300 text-sm mt-2">(Replace with your image)</p>
-                </div>
-              </div>
+              {/* Profile Image */}
+              <Image
+                src="/images/profile.JPEG"
+                alt="Jyothi - Makeup Artist"
+                fill
+                className="object-cover"
+                priority
+              />
 
               {/* Badge */}
               <motion.div

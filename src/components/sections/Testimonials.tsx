@@ -11,39 +11,30 @@ export const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Punam',
-      role: 'Bride',
-      image: 'P',
+      name: 'Sindhu',
+      role: 'Client',
+      image: 'Si',
       rating: 5,
       content:
-        'Harshitha made me feel like a princess on my wedding day. Her attention to detail and calming presence made the whole experience magical. My makeup lasted all day and looked perfect in every photo!',
+        'Loved the hairstyle with curl extensions. Beautifully done and elegant finishing. It looked graceful and stayed perfectly in place throughout the event. Highly recommend Jyothi\'s service.',
     },
     {
       id: 2,
-      name: 'Anjali',
-      role: 'Bride',
-      image: 'A',
+      name: 'Saritha',
+      role: 'Saree Client',
+      image: 'Sa',
       rating: 5,
       content:
-        'Professional, talented, and absolutely amazing! The pre-wedding shoot makeup was flawless and camera-ready. Harshitha understood my vision perfectly and executed it beautifully.',
+        'I had a wonderful experience with their saree pre-pleating service. The pleats were perfectly done, neatly aligned, and gave the saree a refined, elegant fall. The finishing was impeccable, and the fabric was handled with great care. The service was prompt, professional, and truly made the draping process effortless. Highly recommended for anyone looking for a hassle-free and polished saree look!',
     },
     {
       id: 3,
-      name: 'Neha',
+      name: 'Soundarya',
       role: 'Event Client',
-      image: 'N',
+      image: 'So',
       rating: 5,
       content:
-        'The makeup transformation was incredible! I received so many compliments at the event. Harshitha\'s creativity and expertise made me look and feel absolutely stunning.',
-    },
-    {
-      id: 4,
-      name: 'Priya',
-      role: 'Bride',
-      image: 'Pr',
-      rating: 5,
-      content:
-        'Working with Harshitha was the best decision for my wedding makeup. She was professional, punctual, and her makeup application was impeccable. Highly recommended!',
+        'I booked Glow Makeover Jyothi for my housewarming function and would recommend her wholeheartedly. She is punctual, well-organized, and truly professional. She understood my desired look perfectly and delivered flawless, elegant, and long-lasting makeup. I\'m extremely happy with her work and would gladly book her again.',
     },
   ]
 
