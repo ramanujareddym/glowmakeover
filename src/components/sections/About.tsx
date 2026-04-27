@@ -67,7 +67,7 @@ export const About = () => {
               
               {/* Profile Image */}
               <Image
-                src="/images/profile.JPEG"
+                src="/images/profile.jpeg"
                 alt="Jyothi - Makeup Artist"
                 fill
                 className="object-cover"
