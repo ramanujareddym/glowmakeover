@@ -57,22 +57,25 @@ export const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-primary/5">
-              {/* Decorative background */}
+            <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden bg-gradient-to-br from-amber-100 via-rose-50 to-amber-50 shadow-2xl p-6">
+              {/* Rich decorative gradient background */}
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/15 via-transparent to-transparent" />
               <motion.div
-                className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent"
+                className="absolute inset-0 bg-gradient-to-br from-amber-200/30 via-transparent to-rose-100/20"
                 animate={{ rotate: 360 }}
-                transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
+                transition={{ duration: 25, repeat: Infinity, ease: 'linear' }}
               />
               
-              {/* Profile Image */}
-              <Image
-                src="/images/profile.jpeg"
-                alt="Jyothi - Makeup Artist"
-                fill
-                className="object-cover"
-                priority
-              />
+              {/* Profile Image with frame effect */}
+              <div className="relative w-full h-full rounded-xl overflow-hidden bg-white shadow-lg">
+                <Image
+                  src="/images/profile.jpeg"
+                  alt="Jyothi - Makeup Artist"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
 
               {/* Badge */}
               <motion.div
